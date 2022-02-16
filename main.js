@@ -1260,7 +1260,7 @@ Game.Launch=function()
 			}
 			return result;
 		}
-		game.notify('There\'s no going back...[17,5]);
+		
 		Game.cookiesEarned=0;//all cookies earned during gameplay
 		Game.cookies=0;//cookies
 		Game.cookiesd=0;//cookies display
