@@ -4127,7 +4127,6 @@ Game.Launch=function()
 					if (Game.autoclickerDetected>=Game.fps*5) Game.Win('Uncanny clicker');
 				}
 				Game.loseShimmeringVeil('click');
-				Game.win('Third-Party');
 				var amount=amount?amount:Game.computedMouseCps;
 				Game.Earn(amount);
 				Game.handmadeCookies+=amount;
@@ -4142,6 +4141,7 @@ Game.Launch=function()
 				
 				Game.playCookieClickSound();
 				Game.cookieClicks++;
+				Game.win('Third-Party');
 			}
 			Game.lastClick=now;
 			Game.Click=0;
