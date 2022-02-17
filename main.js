@@ -644,7 +644,7 @@ Game.Launch=function()
 	
 	'</div><div class="subsection">'+
 	'<div class="title">Version history</div>'+
-	'<div class="title">Hehe... Par sees you.</div>'+
+	
 	'</div><div class="subsection update">'+
 	'<div class="title">01/11/2020 - alternate reality</div>'+
 	'<div class="listing">&bull; new building</div>'+
