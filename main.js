@@ -14480,7 +14480,7 @@ window.onload=function()
 				'hey, how\'s it hangin',
 				'About to cheat in some cookies or just checking for bugs?',
 				'Remember : cheated cookies taste awful!',
-				'Hey, <strike>Orteil</strike> Par here. Cheated cookies taste awful... or do they?',
+				'Hey, O̶r̶t̶e̶i̶l̶ Par here. Cheated cookies taste awful... or do they?',
 			])+' ===]');
 			Game.Load();
 			//try {Game.Load();}
