@@ -6030,7 +6030,7 @@ Game.Launch=function()
 				'<div class="listing"><b>Buildings owned :</b> '+Beautify(buildingsOwned)+'</div>'+
 				'<div class="listing"><b>Cookies per second :</b> '+Beautify(Game.cookiesPs,1)+' <small>'+
 					'(multiplier : '+Beautify(Math.round(Game.globalCpsMult*100),1)+'%)'+
-					(Game.cpsSucked>0?' <span class="listing">(withered : '+Beautify(Math.round(Game.cpsSucked*100),1)+'%)</span>':'')+
+					(Game.cpsSucked>0?' <span class="warning">(withered : '+Beautify(Math.round(Game.cpsSucked*100),1)+'%)</span>':'')+
 					'</small></div>'+
 				'<div class="listing"><b>Raw cookies per second :</b> '+Beautify(Game.cookiesPsRaw,1)+' <small>'+
 					'(highest this ascension : '+Beautify(Game.cookiesPsRawHighest,1)+')'+
