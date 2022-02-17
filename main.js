@@ -4397,6 +4397,7 @@ Game.Launch=function()
 			
 			var eggMult=1;
 			if (Game.Has('Chicken egg')) eggMult*=1.01;
+			if ((Game.cookies)==69) game.win('Nice')
 			if (Game.Has('Duck egg')) eggMult*=1.01;
 			if (Game.Has('Turkey egg')) eggMult*=1.01;
 			if (Game.Has('Quail egg')) eggMult*=1.01;
