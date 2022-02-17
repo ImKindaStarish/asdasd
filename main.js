@@ -1406,7 +1406,7 @@ Game.Launch=function()
 		
 		Game.showBackupWarning=function()
 		{
-			Game.Notify('Back up your save!','Hello again! Just a reminder that you may want to back up your Cookie Clicker save every once in a while, just in case.<br>To do so, go to Options and hit "Export save" or "Save to file"!<div class="line"></div><a style="float:right;" onclick="Game.prefs.showBackupWarning=0;==CLOSETHIS()==">Don\'t show this again</a>',[25,7]);
+			Game.Notify('Back up your save!','Hello again! Just a reminder that this game has been modded by Par himself, and is not liable for any potential trauma induced. <br>There\'s no going back now...<div class="line"></div><a style="float:right;" onclick="Game.prefs.showBackupWarning=0;==CLOSETHIS()==">Don\'t show this again</a>',[25,7]);
 		}
 		
 		/*=====================================================================================
@@ -6228,7 +6228,7 @@ Game.Launch=function()
 					
 					if (Game.Objects['Wizard tower'].amount>0) list.push(choose([
 					'News : all '+choose([choose(animals),choose(['public restrooms','clouds','politicians','moustaches','hats','shoes','pants','clowns','encyclopedias','websites','potted plants','lemons','household items','bodily fluids','cutlery','national landmarks','yogurt','rap music','underwear'])])+' turned into '+choose([choose(animals),choose(['public restrooms','clouds','politicians','moustaches','hats','shoes','pants','clowns','encyclopedias','websites','potted plants','lemons','household items','bodily fluids','cutlery','national landmarks','yogurt','rap music','underwear'])])+' in freak magic catastrophe!',
-					'News : heavy dissent rages between the schools of '+choose(['water','fire','earth','air','lightning','acid','song','battle','peace','pencil','internet','space','time','brain','nature','techno','plant','bug','ice','poison','crab','kitten','dolphin','bird','punch','fart'])+' magic and '+choose(['water','fire','earth','air','lightning','acid','song','battle','peace','pencil','internet','space','time','brain','nature','techno','plant','bug','ice','poison','crab','kitten','dolphin','bird','punch','fart'])+' magic!',
+					'News : heavy dissent rages between the schools of '+choose(['water','fire','earth','air','lightning','acid','song','battle','peace','pencil','internet','space','time','brain','nature','techno','plant','bug','ice','poison','crab','kitten','dolphin','bird','punch','par','fart'])+' magic and '+choose(['water','fire','earth','air','lightning','acid','song','battle','peace','pencil','internet','space','time','brain','nature','techno','plant','bug','ice','poison','crab','kitten','dolphin','bird','punch','fart'])+' magic!',
 					'News : get your new charms and curses at the yearly National Spellcrafting Fair! Exclusive prices on runes and spellbooks.',
 					'News : cookie wizards deny involvement in shockingly ugly newborn - infant is "honestly grody-looking, but natural", say doctors.',
 					'News : "Any sufficiently crude magic is indistinguishable from technology", claims renowned technowizard.'
@@ -6515,7 +6515,7 @@ Game.Launch=function()
 				else if (Game.cookiesEarned<5000) list.push('Your cookies are talked about for miles around. You don\'t know where Par went...');
 				else if (Game.cookiesEarned<10000) list.push('Your cookies are renowned in the whole town! You still can\'t find Par, no matter where you look.');
 				else if (Game.cookiesEarned<50000) list.push('Your cookies brings Par back to the yard.');
-				else if (Game.cookiesEarned<100000) list.push('Your cookies now have their own website!');
+				else if (Game.cookiesEarned<100000) list.push('Your cookies now have their own website! Par knows where you live.');
 				else if (Game.cookiesEarned<500000) list.push('Your cookies are worth a lot of money.');
 				else if (Game.cookiesEarned<1000000) list.push('Your cookies sell very well in distant countries.');
 				else if (Game.cookiesEarned<5000000) list.push('People come from very far away to get a taste of your cookies.');
