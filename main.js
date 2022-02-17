@@ -593,7 +593,6 @@ var Game={};
 Game.Launch=function()
 {
 	Game.version=VERSION;
-	
 	Game.beta=BETA;
 	if (window.location.href.indexOf('/beta')>-1) Game.beta=1;
 	Game.https=(location.protocol!='https:')?false:true;
@@ -11478,7 +11477,6 @@ Game.Launch=function()
 		
 		order=61616;
 		new Game.Achievement('Liquid assets','Have your stock market profits surpass <b>$10,000,000</b>.',[12,33]);
-		new Game.Achievement('Nice','Obtain <b>69</b> cookies.',[17,5]);
 		
 		//end of achievements
 		
