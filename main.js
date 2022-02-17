@@ -1647,7 +1647,7 @@ Game.Launch=function()
 			if (name.slice(-1).toLowerCase()=='s') name+='\' bakery'; else name+='\'s bakery';
 			Game.bakeryNameL.textContent=name;
 			name=Game.bakeryName.toLowerCase();
-			if (name=='par') Game.Win(''<'Par complex');
+			if (name=='par') Game.Win('Par complex');
 			if (name.indexOf('saysopensesame',name.length-('saysopensesame').length)>0 && !Game.sesame) Game.OpenSesame();
 			Game.recalculateGains=1;
 		}
