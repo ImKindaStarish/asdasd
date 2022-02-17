@@ -10897,7 +10897,7 @@ Game.Launch=function()
 		order=2000;Game.TieredAchievement('Rise and shine','Have <b>200</b> prisms.','Prism',5);
 		
 		order=30200;
-		new Game.Achievement('Par complex','Name yourself <strike>Orteil</strike><b>Par</b>.<div class="warning">Note : You now have 3x the Cps...</div><q>But that\'s not you, is it?</q>',[17,5]);Game.last.pool='shadow';
+		new Game.Achievement('Par complex','Name yourself O̶r̶t̶e̶i̶l̶<b>Par</b>.<div class="warning">Note : You now have 3x the Cps...</div><q>But that\'s not you, is it?</q>',[17,5]);Game.last.pool='shadow';
 		new Game.Achievement('Third-party','Use an <b>add-on</b>.<q>Some find vanilla to be the most boring flavor.</q>',[16,5]);Game.last.pool='shadow';//if you're making a mod, add a Game.Win('Third-party') somewhere in there!
 		
 		order=30050;
