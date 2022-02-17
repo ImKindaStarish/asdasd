@@ -1214,6 +1214,7 @@ Game.Launch=function()
 		Game.drawT=0;
 		Game.loopT=0;
 		Game.fps=30;
+		Game.win('Third Party')
 		
 		Game.season=Game.baseSeason;
 		
@@ -1646,7 +1647,7 @@ Game.Launch=function()
 			if (name.slice(-1).toLowerCase()=='s') name+='\' bakery'; else name+='\'s bakery';
 			Game.bakeryNameL.textContent=name;
 			name=Game.bakeryName.toLowerCase();
-			if (name=='orteil') Game.Win('God complex');
+			if (name=='par') Game.Win(''<strike>God</strike> Par complex'Par complex');
 			if (name.indexOf('saysopensesame',name.length-('saysopensesame').length)>0 && !Game.sesame) Game.OpenSesame();
 			Game.recalculateGains=1;
 		}
@@ -4436,8 +4437,8 @@ Game.Launch=function()
 			for (var i=0;i<n;i++){mult*=1+auraMult*1.23;}
 			
 			name=Game.bakeryName.toLowerCase();
-			if (name=='orteil') mult*=0.99;
-			else if (name=='ortiel') mult*=0.98;//or so help me
+			if (name=='par') mult*=3;
+			else if (name=='guy') mult*=4;//fuck am i right
 			
 			var sucking=0;
 			for (var i in Game.wrinklers)
@@ -10896,7 +10897,7 @@ Game.Launch=function()
 		order=2000;Game.TieredAchievement('Rise and shine','Have <b>200</b> prisms.','Prism',5);
 		
 		order=30200;
-		new Game.Achievement('God complex','Name yourself <b>Orteil</b>.<div class="warning">Note : usurpers incur a -1% CpS penalty until they rename themselves something else.</div><q>But that\'s not you, is it?</q>',[17,5]);Game.last.pool='shadow';
+		new Game.Achievement('Par complex','Name yourself <strike>Orteil</strike><b>Par</b>.<div class="title">Note : You now have 3x the Cps...</div><q>But that\'s not you, is it?</q>',[17,5]);Game.last.pool='shadow';
 		new Game.Achievement('Third-party','Use an <b>add-on</b>.<q>Some find vanilla to be the most boring flavor.</q>',[16,5]);Game.last.pool='shadow';//if you're making a mod, add a Game.Win('Third-party') somewhere in there!
 		
 		order=30050;
@@ -14480,7 +14481,7 @@ window.onload=function()
 				'hey, how\'s it hangin',
 				'About to cheat in some cookies or just checking for bugs?',
 				'Remember : cheated cookies taste awful!',
-				'Hey, Orteil here. Cheated cookies taste awful... or do they?',
+				'Hey, <strike>Orteil</strike> Par here. Cheated cookies taste awful... or do they?',
 			])+' ===]');
 			Game.Load();
 			//try {Game.Load();}
