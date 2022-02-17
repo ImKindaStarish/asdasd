@@ -6507,7 +6507,7 @@ Game.Launch=function()
 			
 			if (list.length==0)
 			{
-				if (Game.cookiesEarned<5) list.push('You should\'ve left when you had the chance- Par');
+				if (Game.cookiesEarned<5) list.push('You should\'ve left when you had the chance<br> <b>-Par</b>');
 				else if (Game.cookiesEarned<50) list.push('The last minute or two you spent playing this game goes to the trash. The neighborhood raccoon barely touches it.');
 				else if (Game.cookiesEarned<100) list.push('Par accepts to try some of your cookies. They taste unhealthy, but not good; either.');
 				else if (Game.cookiesEarned<500) list.push('Your cookies are popular in the neighborhood. Par gives you suspicious glances.');
