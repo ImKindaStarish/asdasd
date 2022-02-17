@@ -318,13 +318,13 @@ a.option:active, .info a:active
 }
 .warning, a.option.warning
 {
-	color:#c00;
-	border-color:#c00;
+	color:#f33;
+	border-color:#f33;
 }
 a.option.warning:hover
 {
-	border-color:#f33;
-	color:#f33;
+	border-color:#f77;
+	color:#f77;
 }
 a.option.warning:active
 {
