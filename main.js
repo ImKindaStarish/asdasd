@@ -4141,7 +4141,6 @@ Game.Launch=function()
 				
 				Game.playCookieClickSound();
 				Game.cookieClicks++;
-				Game.win('Third-Party');
 			}
 			Game.lastClick=now;
 			Game.Click=0;
@@ -14473,6 +14472,7 @@ window.onload=function()
 	
 	if (!Game.ready)
 	{
+		Game.Win('Third-party')
 		if (top!=self) Game.ErrorFrame();
 		else
 		{
