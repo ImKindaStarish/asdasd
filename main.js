@@ -14472,7 +14472,6 @@ window.onload=function()
 	
 	if (!Game.ready)
 	{
-		Game.Win('Third-party')
 		if (top!=self) Game.ErrorFrame();
 		else
 		{
