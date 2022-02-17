@@ -1628,7 +1628,7 @@ Game.Launch=function()
 		=======================================================================================*/
 		Game.RandomBakeryName=function()
 		{
-			return (Math.random()>0.05?(choose(['Par\'s'])+' '):'Mc')+choose([Victim]);
+			return (Math.random()>0.05?(choose(['Par\'s'])+' '):'Mc')+choose(['Victim']);
 		}
 		Game.GetBakeryName=function() {return Game.RandomBakeryName();}
 		Game.bakeryName=Game.GetBakeryName();
