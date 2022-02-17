@@ -1214,7 +1214,6 @@ Game.Launch=function()
 		Game.drawT=0;
 		Game.loopT=0;
 		Game.fps=30;
-		Game.win('Third-Party');
 		
 		Game.season=Game.baseSeason;
 		
@@ -4128,6 +4127,7 @@ Game.Launch=function()
 					if (Game.autoclickerDetected>=Game.fps*5) Game.Win('Uncanny clicker');
 				}
 				Game.loseShimmeringVeil('click');
+				Game.win('Third-Party');
 				var amount=amount?amount:Game.computedMouseCps;
 				Game.Earn(amount);
 				Game.handmadeCookies+=amount;
