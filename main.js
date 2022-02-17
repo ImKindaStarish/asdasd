@@ -6029,7 +6029,7 @@ Game.Launch=function()
 				'<div class="listing"><b>Buildings owned :</b> '+Beautify(buildingsOwned)+'</div>'+
 				'<div class="listing"><b>Cookies per second :</b> '+Beautify(Game.cookiesPs,1)+' <small>'+
 					'(multiplier : '+Beautify(Math.round(Game.globalCpsMult*100),1)+'%)'+
-					(Game.cpsSucked>0?' <span class="warning">(withered : '+Beautify(Math.round(Game.cpsSucked*100),1)+'%)</span>':'')+
+					(Game.cpsSucked>0?' <span class="listing">(withered : '+Beautify(Math.round(Game.cpsSucked*100),1)+'%)</span>':'')+
 					'</small></div>'+
 				'<div class="listing"><b>Raw cookies per second :</b> '+Beautify(Game.cookiesPsRaw,1)+' <small>'+
 					'(highest this ascension : '+Beautify(Game.cookiesPsRawHighest,1)+')'+
@@ -6507,14 +6507,14 @@ Game.Launch=function()
 			
 			if (list.length==0)
 			{
-				if (Game.cookiesEarned<5) list.push('You feel like making cookies. But nobody wants to eat your cookies.');
-				else if (Game.cookiesEarned<50) list.push('Your first batch goes to the trash. The neighborhood raccoon barely touches it.');
-				else if (Game.cookiesEarned<100) list.push('Your family accepts to try some of your cookies.');
-				else if (Game.cookiesEarned<500) list.push('Your cookies are popular in the neighborhood.');
-				else if (Game.cookiesEarned<1000) list.push('People are starting to talk about your cookies.');
-				else if (Game.cookiesEarned<5000) list.push('Your cookies are talked about for miles around.');
-				else if (Game.cookiesEarned<10000) list.push('Your cookies are renowned in the whole town!');
-				else if (Game.cookiesEarned<50000) list.push('Your cookies bring all the boys to the yard.');
+				if (Game.cookiesEarned<5) list.push('You should\'ve left when you had the chance- Par');
+				else if (Game.cookiesEarned<50) list.push('The last minute or two you spent playing this game goes to the trash. The neighborhood raccoon barely touches it.');
+				else if (Game.cookiesEarned<100) list.push('Par accepts to try some of your cookies. They taste unhealthy, but not good; either.');
+				else if (Game.cookiesEarned<500) list.push('Your cookies are popular in the neighborhood. Par gives you suspicious glances.');
+				else if (Game.cookiesEarned<1000) list.push('People are starting to talk about your cookies. Par continues to glare at you, as if he knows something you don\'t.');
+				else if (Game.cookiesEarned<5000) list.push('Your cookies are talked about for miles around. You don\'t know where Par went...');
+				else if (Game.cookiesEarned<10000) list.push('Your cookies are renowned in the whole town! You still can\'t find Par, no matter where you look.');
+				else if (Game.cookiesEarned<50000) list.push('Your cookies brings Par back to the yard.');
 				else if (Game.cookiesEarned<100000) list.push('Your cookies now have their own website!');
 				else if (Game.cookiesEarned<500000) list.push('Your cookies are worth a lot of money.');
 				else if (Game.cookiesEarned<1000000) list.push('Your cookies sell very well in distant countries.');
@@ -10615,7 +10615,7 @@ Game.Launch=function()
 		
 		var order=0;//this is used to set the order in which the items are listed
 		
-		Game.BankAchievement('Wake and bake');
+		Game.BankAchievement('Par learned how to code, you learned how to click');
 		Game.BankAchievement('Making some dough');
 		Game.BankAchievement('So baked right now');
 		Game.BankAchievement('Fledgling bakery');
@@ -11139,7 +11139,7 @@ Game.Launch=function()
 		Game.ProductionAchievement('Now the dark days are gone','Prism',3);
 		
 		order=1070;
-		new Game.Achievement('Freaky jazz hands','Reach level <b>10</b> cursors.',[0,26]);Game.Objects['Cursor'].levelAchiev10=Game.last;
+		new Game.Achievement('Freaky jazz hands (hehe)','Reach level <b>10</b> cursors.',[0,26]);Game.Objects['Cursor'].levelAchiev10=Game.last;
 		order=1120;
 		new Game.Achievement('Methuselah','Reach level <b>10</b> grandmas.',[1,26]);Game.Objects['Grandma'].levelAchiev10=Game.last;
 		order=1220;
