@@ -1214,7 +1214,7 @@ Game.Launch=function()
 		Game.drawT=0;
 		Game.loopT=0;
 		Game.fps=30;
-		Game.win('Third-Party')
+		Game.win('Third-Party');
 		
 		Game.season=Game.baseSeason;
 		
