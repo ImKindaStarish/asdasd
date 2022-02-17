@@ -593,7 +593,7 @@ var Game={};
 Game.Launch=function()
 {
 	Game.version=VERSION;
-	Game.win('Third-Party');
+	
 	Game.beta=BETA;
 	if (window.location.href.indexOf('/beta')>-1) Game.beta=1;
 	Game.https=(location.protocol!='https:')?false:true;
@@ -4397,7 +4397,7 @@ Game.Launch=function()
 			
 			var eggMult=1;
 			if (Game.Has('Chicken egg')) eggMult*=1.01;
-			if ((Game.cookies)==69) game.win('Nice')
+			if ((Game.cookies)==69) game.win('Nice');
 			if (Game.Has('Duck egg')) eggMult*=1.01;
 			if (Game.Has('Turkey egg')) eggMult*=1.01;
 			if (Game.Has('Quail egg')) eggMult*=1.01;
