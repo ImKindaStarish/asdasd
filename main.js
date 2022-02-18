@@ -3429,7 +3429,7 @@ Game.Launch=function()
 				if (Game.HasAchiev('Rebirth'))
 				{
 					if (Game.prefs.popups) Game.Popup('Reincarnated');
-					else Game.Notify('Reincarnated','Hello, cookies!<br><div class="warning">You can\'t get rid of me.-Par</div>',[10,0],4);
+					else Game.Notify('Reincarnated','Hello, cookies!',[10,0],4);
 				}
 				if (Game.resets>=1000) Game.Win('Endless cycle');
 				if (Game.resets>=100) Game.Win('Reincarnation');
