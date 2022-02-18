@@ -11476,6 +11476,7 @@ Game.Launch=function()
 		
 		order=61616;
 		new Game.Achievement('Liquid assets','Have your stock market profits surpass <b>$10,000,000</b>.',[12,33]);
+		new Game.Achievement('Nice','Click the cookie <b>69</b> times. Yes, Par made this.',[17,5]);
 		
 		//end of achievements
 		
@@ -14064,6 +14065,7 @@ Game.Launch=function()
 				if (minAmount>=600) {Game.Win('Sexcentennial');Game.Unlock('Butter biscuit (with butter)');}
 				
 				if (Game.handmadeCookies>=1000) {Game.Win('Clicktastic');Game.Unlock('Plastic mouse');}
+				if (Game.cookieclicks>=68) {Game.Win('Nice');}
 				if (Game.handmadeCookies>=100000) {Game.Win('Clickathlon');Game.Unlock('Iron mouse');}
 				if (Game.handmadeCookies>=10000000) {Game.Win('Clickolympics');Game.Unlock('Titanium mouse');}
 				if (Game.handmadeCookies>=1000000000) {Game.Win('Clickorama');Game.Unlock('Adamantium mouse');}
